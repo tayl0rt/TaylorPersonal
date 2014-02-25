@@ -1,0 +1,36 @@
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Theme Name: TaylorPersonal	
+Theme URI: http://google.com/+TaylorThompson!
+Description: Theme for Taylor Thompson's website!
+Template: twentyfourteen
+Author: Taylor Thompson
+Version: 1.0.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+/* Import Parent CSS */
+
+@import url("../twentyfourteen/style.css");
+
+/* Header */
+
+.site-title a {
+
+	padding: 2px 0 0 220px; /* allow space for image */
+	background: url(images/logo.png) no-repeat;
+}
+
+
+/* Sidebar */
+
+@media screen and (min-width: 673px){
+	
+#secondary, #supplementary {
+	padding: 0 15px;
+}
+}
+/* Content *
+
+
+/* Footer */
